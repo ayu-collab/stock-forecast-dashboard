@@ -17,14 +17,16 @@ This project predicts future stock prices and allows users to interactively view
 ---
 
 ## 📂 Project Structure
+```
 ├── app.py # Streamlit dashboard
 ├── api.py # FastAPI backend
 ├── lstm_model_aapl.h5 # Pretrained LSTM model
 ├── Process_Documentation.md #  process documentation
 ├── README.md # Project overview and instructions
 ├── requirements.txt # Required dependencies
-└── notebooks/
-└── stock_forecasting.ipynb # Full experimentation and model training
+├── stock_forecasting.ipynb # Full experimentation and model training
+
+```
 
 ---
 
@@ -35,26 +37,31 @@ This project predicts future stock prices and allows users to interactively view
 
 ---
 
-##  Setup Instructions
 
- 1️. Clone the Repository
+## SetUp Instructions
 
-git clone https://github.com/<ayu-collab>/stock-forecast-app.git
-cd stock-forecast-app
+1. **Clone the repository**  
+   ```bash
+   git clone <https://github.com/ayu-collab/stock-forecast-dashboard.git>
+   cd stock-forecast-dashboard
+   ```
 
-2️.Install Dependencies
-
-
-pip install -r requirements.txt
-
+2. **Install dependencies**  
+   ```bash
+   pip install -r requirements.txt
+   ```
 3️. Run FastAPI
+   ```bash
+   uvicorn api:app --reload
+   ```
+4. **Run the Streamlit app**  
+   ```bash
+   streamlit run app.py
+   ```
 
-uvicorn api:app --reload
-
-4️.Run Streamlit
-
-streamlit run app.py
-Then open the displayed URL (usually http://localhost:8501) in your browser.
+4. **Open browser**  
+   streamlit run app.py
+   Then open the displayed URL (usually http://localhost:8501) in your browser.
 
 ---
 ##  Author
@@ -62,5 +69,9 @@ Then open the displayed URL (usually http://localhost:8501) in your browser.
 **Ayushma Devkota**  
 Data Science Enthusiast | Machine Learning Learner  
 devkotaaayushma08@gmail.com
+
+
+
+
 
 
