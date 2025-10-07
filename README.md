@@ -37,7 +37,7 @@ This project predicts future stock prices and allows users to interactively view
 
 ##  Setup Instructions
 
-### 1️. Clone the Repository
+ 1️. Clone the Repository
 ```bash
 git clone https://github.com/<ayu-collab>/stock-forecast-app.git
 cd stock-forecast-app
@@ -51,7 +51,7 @@ uvicorn api:app --reload
 4️.Run Streamlit (Frontend)
 streamlit run app.py
 Then open the displayed URL (usually http://localhost:8501) in your browser.
-
+---
 ##  Author
 
 **Ayushma Devkota**  
