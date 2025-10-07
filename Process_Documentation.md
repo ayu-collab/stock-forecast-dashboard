@@ -31,6 +31,9 @@
 - Captures nonlinear dependencies and long-term temporal relationships.
 - RMSE ≈ 8.93 (best performance in experiments)
 
+<img width="1681" height="743" alt="Screenshot 2025-10-07 151902" src="https://github.com/user-attachments/assets/5e160a3c-d005-47e4-b1f4-15d27436ed66" />
+
+
 ## 5. Evaluation
 - Evaluation metric: **RMSE (Root Mean Squared Error)**
 - LSTM outperformed traditional models (lower RMSE, better future trend capture).
