@@ -43,12 +43,16 @@ git clone https://github.com/<ayu-collab>/stock-forecast-app.git
 cd stock-forecast-app
 
 2️.Install Dependencies
+
+
 pip install -r requirements.txt
 
-3️. Run FastAPI (Backend)
+3️. Run FastAPI
+
 uvicorn api:app --reload
 
-4️.Run Streamlit (Frontend)
+4️.Run Streamlit
+
 streamlit run app.py
 Then open the displayed URL (usually http://localhost:8501) in your browser.
 
