@@ -70,6 +70,15 @@ This project predicts future stock prices and allows users to interactively view
 Data Science Enthusiast | Machine Learning Learner  
 devkotaaayushma08@gmail.com
 
+---
+## Output
+<img width="1808" height="811" alt="Screenshot 2025-10-07 155043" src="https://github.com/user-attachments/assets/5a4ca3e1-5d42-45d4-a344-d22d1fe1c407" />
+<img width="1362" height="781" alt="Screenshot 2025-10-07 155209" src="https://github.com/user-attachments/assets/ceea1d2c-21b4-426b-8b0a-cb11b210153a" />
+<img width="1394" height="400" alt="Screenshot 2025-10-07 155219" src="https://github.com/user-attachments/assets/fde12bf2-4e5e-4b43-bc03-a5b5ed41a9f0" />
+
+
+
+
 
 
 
